@@ -35,15 +35,16 @@ class MacroSaver:
             if name_macro == m.name:
                 return m.name, index
 
-    @check_type(Macro)
-    def check_unique(self, macro: Macro):
+    def check_unique(self, macro):
 
-        result = self.search(macro.name)
-        if result[0] is not None:
-            raise errors.UniqueNameError(macro.name, result[0])
+        result = self.search(macro)
+        if result is not None:
+            raise errors.UniqueNameError(macro, result[0])
 
     @check_type(Macro)
     def __iadd__(self, macro: Macro):
+
+        self.check_unique(macro.name)
         self.__Macros.append(macro)
         return self
 
@@ -54,6 +55,8 @@ class MacroSaver:
             raise IndexError("the "+str(name)+" is not defined.")
         else:
             self.__Macros.pop(result[1])
+
+        return self
 
 
 

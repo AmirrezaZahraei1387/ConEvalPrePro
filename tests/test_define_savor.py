@@ -1,5 +1,16 @@
 import unittest
 from ceval.defines_saver import check_type, MacroSaver, Macro
+import ceval
+
+obj = MacroSaver()
+
+macro_1 = Macro("AH", "5")
+macro_2 = Macro("AI", "5")
+macro_3 = Macro("AL", "5")
+
+obj += macro_1
+obj += macro_2
+obj += macro_3
 
 
 class test(unittest.TestCase):
@@ -32,18 +43,42 @@ class test(unittest.TestCase):
 
     def test_search_class_MacroSaver(self):
 
-        obj = MacroSaver()
-
-        macro_1 = Macro("AH", "5")
-        macro_2 = Macro("AI", "5")
-        macro_3 = Macro("AL", "5")
-
-        obj += macro_1
-        obj += macro_2
-        obj += macro_3
-
         result = obj.search("AH")
         result_1 = obj.search("hh")
 
         result_all = [result, result_1]
         self.assertEqual(result_all, [("AH", 0), None])
+
+    def test_check_unique_class_MacroSver(self):
+
+
+        result = obj.check_unique("gg")
+        self.assertEqual(result, None)
+
+    def test_check_unique_class_MacroSver_1(self):
+
+        try:
+            obj.check_unique("AL")
+        except ceval.errors.UniqueNameError:
+            a = True
+        else:
+            a = False
+
+        self.assertEqual(a, True)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
