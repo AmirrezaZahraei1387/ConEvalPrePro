@@ -1,5 +1,5 @@
 import dataclasses
-import errors
+import ceval.errors as errors
 
 
 @dataclasses.dataclass
@@ -12,11 +12,11 @@ class Macro:
 
 def check_type(type_):
     def check_type_(function):
-        def new_func(value):
-            if isinstance(value, Macro):
-                raise TypeError(str(type_)+" does not "+str(type_)+" object.")
+        def new_func(self, value):
+            if not isinstance(value, type_):
+                raise TypeError(str(value)+" is not "+str(type_)+" object.")
             new_func.__doc__ = function.__doc__
-            return function(value)
+            return function(self, value)
         return new_func
     check_type.__doc__ = check_type_.__doc__
     return check_type_
