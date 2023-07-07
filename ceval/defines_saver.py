@@ -43,8 +43,9 @@ class MacroSaver:
             raise errors.UniqueNameError(macro.name, result[0])
 
     @check_type(Macro)
-    def __add__(self, macro: Macro):
+    def __iadd__(self, macro: Macro):
         self.__Macros.append(macro)
+        return self
 
     def __sub__(self, name: str):
 
