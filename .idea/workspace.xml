@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4232bec5-6882-4822-91ea-14b1b6e97c25" name="Changes" comment="a json file as the build configeration is added" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="b783d547d0569b19117eed5e4db6688299a67ca5" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2SDF29t5aClUVbcO5lsPFqYClFr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/Github-Repos/cevalpp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python tests.Python tests for test_define_savor.test">
+    <configuration name="Python tests for test_define_savor.test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="cevalpp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_define_savor.test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_define_savor.test.test_check_type_error_raising" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="cevalpp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_define_savor.test.test_check_type_error_raising&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_define_savor.test.test_check_type_error_raising_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="cevalpp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_define_savor.test.test_check_type_error_raising_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_define_savor.test.test_check_unique_class_MacroSver" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="cevalpp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_define_savor.test.test_check_unique_class_MacroSver&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_define_savor.test.test_check_unique_class_MacroSver_1" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="cevalpp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_define_savor.test.test_check_unique_class_MacroSver_1&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_define_savor.test" />
+        <item itemvalue="Python tests.Python tests for test_define_savor.test.test_check_type_error_raising" />
+        <item itemvalue="Python tests.Python tests for test_define_savor.test.test_check_type_error_raising_2" />
+        <item itemvalue="Python tests.Python tests for test_define_savor.test.test_check_unique_class_MacroSver" />
+        <item itemvalue="Python tests.Python tests for test_define_savor.test.test_check_unique_class_MacroSver_1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4232bec5-6882-4822-91ea-14b1b6e97c25" name="Changes" comment="" />
+      <created>1688673034584</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1688673034584</updated>
+      <workItem from="1688673036204" duration="2515000" />
+      <workItem from="1688680038266" duration="5000" />
+      <workItem from="1688689835524" duration="703000" />
+      <workItem from="1688751666655" duration="10000" />
+      <workItem from="1688769224460" duration="70000" />
+      <workItem from="1688770012908" duration="5244000" />
+      <workItem from="1688777774344" duration="702000" />
+    </task>
+    <task id="LOCAL-00001" summary="the virtual enviremnet is created">
+      <created>1688675466326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688675466326</updated>
+    </task>
+    <task id="LOCAL-00002" summary="an error is added to the errors.py">
+      <created>1688675497808</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688675497808</updated>
+    </task>
+    <task id="LOCAL-00003" summary="the define_saver for holding the macros is created">
+      <created>1688675523707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688675523707</updated>
+    </task>
+    <task id="LOCAL-00004" summary="the compiler.py is just created and n special code">
+      <created>1688675552783</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688675552783</updated>
+    </task>
+    <task id="LOCAL-00005" summary="the search is added and the __sub__ created">
+      <created>1688690541434</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688690541434</updated>
+    </task>
+    <task id="LOCAL-00006" summary="the test for the defines_saver.py is added">
+      <created>1688770150205</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688770150205</updated>
+    </task>
+    <task id="LOCAL-00007" summary="the __init__.py is created for the ceval">
+      <created>1688771634662</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688771634662</updated>
+    </task>
+    <task id="LOCAL-00008" summary="the debuggings are used and the test for the check_type&#10;function is also created">
+      <created>1688771675318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688771675318</updated>
+    </task>
+    <task id="LOCAL-00009" summary="the test for search is created">
+      <created>1688772445810</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688772445810</updated>
+    </task>
+    <task id="LOCAL-00010" summary="the debuggings happened">
+      <created>1688772460851</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688772460851</updated>
+    </task>
+    <task id="LOCAL-00011" summary="two tests written">
+      <created>1688774249594</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688774249594</updated>
+    </task>
+    <task id="LOCAL-00012" summary="a json file as the build configeration is added">
+      <created>1688778256949</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688778256949</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="the virtual enviremnet is created" />
+    <MESSAGE value="an error is added to the errors.py" />
+    <MESSAGE value="the define_saver for holding the macros is created" />
+    <MESSAGE value="the compiler.py is just created and n special code" />
+    <MESSAGE value="the search is added and the __sub__ created" />
+    <MESSAGE value="the test for the defines_saver.py is added" />
+    <MESSAGE value="the __init__.py is created for the ceval" />
+    <MESSAGE value="the debuggings are used and the test for the check_type&#10;function is also created" />
+    <MESSAGE value="the test for search is created" />
+    <MESSAGE value="the debuggings happened" />
+    <MESSAGE value="two tests written" />
+    <MESSAGE value="a json file as the build configeration is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="a json file as the build configeration is added" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/cevalpp$defines_saver.coverage" NAME="defines_saver Coverage Results" MODIFIED="1688772403350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceval" />
+    <SUITE FILE_PATH="coverage/cevalpp$compiler.coverage" NAME="compiler Coverage Results" MODIFIED="1688673601284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceval" />
+    <SUITE FILE_PATH="coverage/cevalpp$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1688770711913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ceval" />
+    <SUITE FILE_PATH="coverage/cevalpp$.coverage" NAME=" Coverage Results" MODIFIED="1688775238297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+  </component>
+</project>
