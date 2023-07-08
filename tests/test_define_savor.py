@@ -17,7 +17,7 @@ class test(unittest.TestCase):
 
     @check_type(int)
     def check_type_test(self, number):
-        return number*2
+        return number * 2
 
     def test_check_type_error_raising(self):
 
@@ -51,7 +51,6 @@ class test(unittest.TestCase):
 
     def test_check_unique_class_MacroSver(self):
 
-
         result = obj.check_unique("gg")
         self.assertEqual(result, None)
 
@@ -66,19 +65,49 @@ class test(unittest.TestCase):
 
         self.assertEqual(a, True)
 
+    def test__iadd__(self):
+        global obj
 
+        mac = Macro("AI", "g")
 
+        try:
+            obj += mac
+        except ceval.errors.UniqueNameError:
+            a = True
+        else:
+            a = False
 
+        self.assertEqual(a, True)
 
+    def test__iadd___1(self):
 
+        global obj
 
+        mac = Macro("A", "hh")
+        obj += mac
 
+        result = obj.search("A")
 
+        self.assertEqual(result is not None, True)
 
+    def test__sub__(self):
 
+        global obj
 
+        try:
+            obj -= "gfff"
+        except IndexError:
+            a = True
+        else:
+            a = False
+        # "the given name does not exist and error is given"
+        self.assertEqual(a, True)
 
+    def test__sub___1(self):
 
+        global obj
 
-
-
+        obj -= "AI"
+        result = obj.search("AI")
+        # "the Macro that is excepted is deleted"
+        self.assertEqual(result, None)

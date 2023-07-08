@@ -48,7 +48,7 @@ class MacroSaver:
         self.__Macros.append(macro)
         return self
 
-    def __sub__(self, name: str):
+    def __isub__(self, name: str):
 
         result = self.search(name)
         if result is None:
